@@ -9,71 +9,77 @@
 </head>
 <body>
 
-<header>
+<header class="header">
 
-    <img src="images/logo.svg" alt="Logo">
+    <img class="header__logo" src="images/logo.svg" alt="Logo">
 
-    <ul>
-        <li>Last minute</li>
-        <li>Destinace</li>
-        <li>Časté otázky</li>
+    <ul class="nav">
+        <li class="nav__item">
+            <a class="nav__link" href="#">Last minute</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">Destinace</a>
+        </li>
+        <li class="nav__item--red">
+            <a class="nav__link" href="#">Časté otázky</a>
+        </li>
     </ul>
 
 </header>
 
-<section>
+<section class="cards-top">
 
-    <div>
-        <p>17 600 Kč</p>
-        <h1>Pohoda pod palmami</h1>
-        <p>Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
+    <div class="card card--big">
+        <p class="card__price">17 600 Kč</p>
+        <h1 class="card__title">Pohoda pod palmami</h1>
+        <p class="card__text">Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
     </div>
 
-    <div>
-        <p>8 490 Kč</p>
-        <h2>Klid u jezera</h2>
+    <div class="card">
+        <p class="card__price">8 490 Kč</p>
+        <h2 class="card__title">Klid u jezera</h2>
     </div>
 
-    <div>
-        <p>4 990Kč</p>
-        <h2>Výlet na kole</h2>
+    <div class="card">
+        <p class="card__price">4 990 Kč</p>
+        <h2 class="card__title">Výlet na kole</h2>
     </div>
 
 </section>
 
-    <div>
-        <img src="images/map.svg" alt="Mapa">
-        <h3>Podpora na místě</h3>
-        <p>
+<section class="blocks">
+
+    <div class="block">
+        <img class="block__image" src="images/map.svg" alt="Mapa">
+        <h3 class="block__title">Podpora na místě</h3>
+        <p class="block__text">
             cílové destinaci jsou k dispozici naši delegáti,
             kteří vám vždy rádi poradí.
         </p>
     </div>
 
-<section>
-
-    <div>
-        <img src="images/plane.svg" alt="Letadlo">
-        <h3>Služby na letišti</h3>
-        <p>
+    <div class="block">
+        <img class="block__image" src="images/plane.svg" alt="Letadlo">
+        <h3 class="block__title">Služby na letišti</h3>
+        <p class="block__text">
             Při odletu tam i zpět za vás odbavíme vaše zavadla.
             Na letišti nebudete čekat.
         </p>
     </div>
 
-    <div>
-        <img src="images/globe.svg" alt="Mapa">
-        <h3>Do celého světa</h3>
-        <p>
+    <div class="block">
+        <img class="block__image" src="images/globe.svg" alt="Globus">
+        <h3 class="block__title">Do celého světa</h3>
+        <p class="block__text">
             Nabízíme pravidelné slevy na vybraných destinací
             na všech kontinentech.
         </p>
     </div>
 
-    <div>
-        <img src="images/shield.svg" alt="Mapa">
-        <h3>Vaše bezpečí</h3>
-        <p>
+    <div class="block">
+        <img class="block__image" src="images/shield.svg" alt="Štít">
+        <h3 class="block__title">Vaše bezpečí</h3>
+        <p class="block__text">
             Není-li v cílové destinaci v
             čase odletu bezpečno, vrátíme vám peníze.
         </p>
@@ -81,54 +87,54 @@
 
 </section>
 
-<section>
+<section class="cards-bottom">
 
     <h1>Last minute zájezdy</h1>
 
-    <div>
-        <p>15 900 Kč</p>
-        <h1>Romantika u horského jezera</h1>
-        <p>Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.</p>
+    <div class="card card--big">
+        <p class="card__price">15 900 Kč</p>
+        <h1 class="card__title">Romantika u horského jezera</h1>
+        <p class="card__text">Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.</p>
     </div>
 
-    <div>
-        <p>18 500 Kč</p>
-        <h2>Grand Canyon</h2>
+    <div class="card">
+        <p class="card__price">18 500 Kč</p>
+        <h2 class="card__title">Grand Canyon</h2>
     </div>
 
-    <div>
-        <p>8 900 Kč</p>
-        <h2>Pěšky po Kanárských ostrovech</h2>
+    <div class="card">
+        <p class="card__price">8 900 Kč</p>
+        <h2 class="card__title">Pěšky po Kanárských ostrovech</h2>
     </div>
 
 </section>
 
-<section>
+<section class="articles">
 
-    <h1>Novinky</h1>
+    <h1 class="articles__title">Novinky</h1>
 
-    <div>
-        <p>15. 8. 2020</p>
-        <h3>Magický Zanzibar</h3>
-        <p>
+    <div class="article">
+        <p class="article__date">15. 8. 2020</p>
+        <h3 class="article__title">Magický Zanzibar</h3>
+        <p class="article__text">
             Zanzibar, při vyslovení jména tohoto kouzelného ostrova,
             se vybaví vůně exotických koření, příznivé klima, teplé moře, exotická flóra i fauna.
         </p>
     </div>
 
-    <div>
-        <p>31. 9. 2020</p>
-        <h2>Návrat českých občanů ze zahraničí</h2>
-        <p>
+    <div class="article">
+        <p class="article__date">31. 9. 2020</p>
+        <h2 class="article__title">Návrat českých občanů ze zahraničí</h2>
+        <p class="article__text">
             Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými
             v platném Ochranném opatření Ministerstva zdravotnictví ČR.
         </p>
     </div>
 
-    <div>
-        <p>6. 10. 2020</p>
-        <h2>Na Kubu s PCR testem</h2>
-        <p>
+    <div class="article">
+        <p class="article__date">6. 10. 2020</p>
+        <h2 class="article__title">Na Kubu s PCR testem</h2>
+        <p class="article__text">
             Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19,
             který byl proveden max. 72 hodin před příletem do destinace.
         </p>
@@ -136,7 +142,7 @@
 
 </section>
 
-<footer>©2021, Czechitas</footer>
+<footer class="footer">©2021, Czechitas</footer>
 
 </body>
 </html>
