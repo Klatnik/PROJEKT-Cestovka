@@ -4,4 +4,12 @@ html {
 
 *, :after, :before {
   box-sizing: inherit;
+}
+
+.main {
+  max-width: 480px;
+}
+
+.header {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

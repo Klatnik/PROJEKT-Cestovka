@@ -4,3 +4,11 @@ html { box-sizing: border-box; }
 $primary-color: #F03000;
 $font-base: 'Montserrat', sans-serif;
 $font-special: 'Open Sans', sans-serif;
+
+.main {
+    max-width: 480px;
+}
+
+.header {
+    text-align: center;
+}
