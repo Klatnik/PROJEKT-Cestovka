@@ -6,13 +6,10 @@ $font-base: 'Montserrat', sans-serif;
 $font-special: 'Open Sans', sans-serif;
 
 .main {
-    max-width: 480px;
     margin: 20px;
 }
 
 .header {
-    
-
     &__logo {
         display: block;
         margin: 30px auto;
@@ -30,7 +27,6 @@ $font-special: 'Open Sans', sans-serif;
     &__item {
         list-style-type: none;
         text-align: center;
-        
     }
 
     &__link {
@@ -39,14 +35,20 @@ $font-special: 'Open Sans', sans-serif;
         font-size: 18px;
         font-weight: 400;
         color: $primary-color;
-        padding: 20px;
-        
-       
+        padding: 20px;       
     }
 
     &__link:hover, &__link:active, &__link:focus {
         color: white;
         background-color: $primary-color;
+    }
+}
+
+.cards-bottom {
+    &__title {
+        font-family: $font-base;
+        font-weight: 600;
+        font-size: 24px;
     }
 }
 
@@ -57,24 +59,18 @@ $font-special: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 
 .card-palmy {
-    width: 100%;
     background-image: url("/images/palmy.png");
-    
 }
 
 .card-jezero {
-    width: 100%;
     background-image: url("/images/jezero2.png");
 }
 
 .card-nakole {
-    width: 100%;
     background-image: url("/images/nakole.png");
-
 }
 
 .card-jezero2 {
@@ -116,11 +112,7 @@ $font-special: 'Open Sans', sans-serif;
     margin-bottom: 0;
 }
 
-.cards-bottom__title {
-    font-family: $font-base;
-    font-weight: 600;
-    font-size: 24px;
-}
+
 
 .block {
     display: grid;
@@ -186,4 +178,64 @@ $font-special: 'Open Sans', sans-serif;
     font-weight: 600;
     padding: 20px;
     margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        &__logo {
+            margin: 30px;
+        }
+    }
+
+    .cards-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        
+    }
+
+    .card-palmy, .card-jezero2 {
+        width: 100%;
+        grid-column: 1 / 3;
+        margin: 0;
+    }
+
+
+    .card__title {
+        margin-top: 66px;
+    }
+
+    .card__title--big {
+        margin-top: 225px;
+    }
+
+    .blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .block {
+        display: block;
+        text-align: center;
+
+        &__image {
+            margin-bottom: 20px;
+        }
+    }
+
+    .cards-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .article {
+        margin: 0 0 20px 0;
+    }
+
 }
