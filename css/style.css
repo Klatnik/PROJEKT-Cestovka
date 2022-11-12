@@ -8,10 +8,67 @@ html {
 
 .main {
   max-width: 480px;
+  margin: 20px;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.header__logo {
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.nav__item {
+  list-style-type: none;
+  text-align: center;
+}
+.nav__link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #F03000;
+  padding: 20px;
+}
+.nav__link:hover {
+  color: white;
+  background-color: #F03000;
+}
+
+.card {
+  color: white;
+  padding: 20px;
+}
+
+.card-palmy {
+  width: 100%;
+  background-image: url("/images/palmy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title--big {
+  font-size: 28px;
+  margin-top: 80px;
+}
+
+.card__price {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  background-color: #F03000;
+  padding: 10px;
+  margin: 0;
+}
+
+.card__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.card__text {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
