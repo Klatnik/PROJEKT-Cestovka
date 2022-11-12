@@ -55,27 +55,27 @@ html {
 }
 
 .card-palmy {
-  background-image: url(/images/palmy.png);
+  background-image: url("palmy.png");
 }
 
 .card-jezero {
-  background-image: url(/images/jezero2.png);
+  background-image: url("jezero2.png");
 }
 
 .card-nakole {
-  background-image: url(/images/nakole.png);
+  background-image: url("nakole.png");
 }
 
 .card-jezero2 {
-  background-image: url(/images/lodicka.png);
+  background-image: url("lodicka.png");
 }
 
 .card-canyon {
-  background-image: url(/images/podkova.png);
+  background-image: url("podkova.png");
 }
 
 .card-kanary {
-  background-image: url(/images/zatoka.png);
+  background-image: url("zatoka.png");
 }
 
 .card__title--big {
