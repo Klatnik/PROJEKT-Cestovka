@@ -43,23 +43,48 @@ html {
 .card {
   color: white;
   padding: 20px;
-}
-
-.card-palmy {
-  width: 100%;
-  background-image: url("/images/palmy.png");
+  margin: 20px 0 20px 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.card-palmy {
+  width: 100%;
+  background-image: url("/images/palmy.png");
+}
+
+.card-jezero {
+  width: 100%;
+  background-image: url("/images/jezero2.png");
+}
+
+.card-nakole {
+  width: 100%;
+  background-image: url("/images/nakole.png");
+}
+
+.card-jezero2 {
+  background-image: url("/images/lodicka.png");
+}
+
+.card-canyon {
+  background-image: url("/images/podkova.png");
+}
+
+.card-kanary {
+  background-image: url("/images/zatoka.png");
+}
+
 .card__title--big {
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   margin-top: 80px;
 }
 
 .card__price {
   display: inline-block;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
   background-color: #F03000;
   padding: 10px;
@@ -68,10 +93,43 @@ html {
 
 .card__title {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  margin-top: 36px;
+  margin-bottom: 0;
+  font-weight: 600;
 }
 
 .card__text {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0;
+}
+
+.cards-bottom__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 53px auto;
+  background-color: #F0F0F0;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.block__image {
+  width: auto;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  justify-self: center;
+}
+.block__title {
+  font-family: "Montserrat", sans-serif;
+  color: #F03000;
+  margin-top: 0;
+}
+.block__text {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
