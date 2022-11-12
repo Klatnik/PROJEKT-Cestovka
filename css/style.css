@@ -55,15 +55,15 @@ html {
 }
 
 .card-palmy {
-  background-image: url("image/palmy.png");
+  background-image: url("images/palmy.png");
 }
 
 .card-jezero {
-  background-image: url("image/jezero2.png");
+  background-image: url("images/jezero2.png");
 }
 
 .card-nakole {
-  background-image: url("image/nakole.png");
+  background-image: url("images/nakole.png");
 }
 
 .card-jezero2 {
@@ -71,11 +71,11 @@ html {
 }
 
 .card-canyon {
-  background-image: url("image/podkova.png");
+  background-image: url("images/podkova.png");
 }
 
 .card-kanary {
-  background-image: url("image/zatoka.png");
+  background-image: url("images/zatoka.png");
 }
 
 .card__title--big {
