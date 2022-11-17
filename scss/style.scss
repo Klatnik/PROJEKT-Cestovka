@@ -44,12 +44,9 @@ $font-special: 'Open Sans', sans-serif;
     }
 }
 
-.cards-bottom {
-    &__title {
-        font-family: $font-base;
-        font-weight: 600;
-        font-size: 24px;
-    }
+h1 {
+    font-family: $font-base;
+    font-size: 24px;
 }
 
 .card {
@@ -142,10 +139,7 @@ $font-special: 'Open Sans', sans-serif;
     }
 }
 
-.articles__title {
-    font-family: $font-base;
-    font-size: 24px;
-}
+
 
 .article {
     background-color: #F0F0F0;
